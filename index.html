@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Carrosel</title>
+</head>
+
+<body>
+<div class="div-slider"> <!-- Conteiner -->
+    <ul class="slides-front"> 
+        <input type="radio" name="radio-btn" id="img-1" checked=""> <!-- Botões do Carrossel -->
+        <li class="slide-container">
+            <div class="slide"> <!-- Imagem do Banner -->
+                <img src="Imagens/1.jpg" alt="">
+            </div>
+
+            <div class="nav"> <!-- Setas do Banner -->
+                <label for="img-3" class="prev"><</label> <!-- Seta para Trás -->
+                <label for="img-2" class="next">></label> <!-- Seta para Frente -->
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-2"> <!-- Botões do Carrossel -->
+        <li class="slide-container">
+            <div class="slide"> <!-- Imagem do Banner -->
+                <img src="Imagens/2.jpg" alt=""> 
+            </div>
+
+            <div class="nav"> <!-- Setas do Banner -->
+                <label for="img-1" class="prev"><</label> <!-- Seta para Trás -->
+                <label for="img-3" class="next">></label> <!-- Seta para Frente -->
+            </div>
+        </li>
+
+        <input type="radio" name="radio-btn" id="img-3"> <!-- Botões do Carrossel -->
+        <li class="slide-container">
+            <div class="slide"> <!-- Imagem do Banner -->
+                <img src="Imagens/3.jpg" alt="">
+            </div>
+
+            <div class="nav"> <!-- Setas do Banner -->
+                <label for="img-2" class="prev"><</label> <!-- Seta para Trás -->
+                <label for="img-1" class="next">></label> <!-- Seta para Frente -->
+            </div>
+        </li>
+
+        <li class="nav-dots">
+            <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+            <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+            <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
